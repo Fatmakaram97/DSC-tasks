@@ -2,6 +2,6 @@
 
 This is my output for this task shown in the figures:
 
-![First part of the web page](https://i.ibb.co/0BktCK3/Screenshot-1.png)
+![First part of the web page](https://i.ibb.co/kg2XC8Y/Screenshot-1.png)
 
-![second part of the web page](https://i.ibb.co/wNQ1tNw/Screenshot-2.png)
+![second part of the web page](https://i.ibb.co/12VG7Tq/Screenshot-2.png)
