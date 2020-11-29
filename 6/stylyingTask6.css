@@ -4,6 +4,7 @@
 .BackgroundDescription{
   background-color: #DCDCDC;
   margin: 60px 0;
+
 }
 
 .Description{
@@ -22,6 +23,7 @@
   margin: 0 150px;
   font-style: italic;
   font-weight: bold;
+  font-size: 20px;
 }
 .FigureForBackGround{
   float: right;
@@ -39,7 +41,7 @@
   height: 130px;
   position: absolute;
   bottom: 160px;
-  right: 600px;
+  right: 590px;
 }
 .threeImages2{
   border-color: white;
@@ -47,7 +49,7 @@
   height: 130px;
   position: absolute;
   bottom: 160px;
-  right: 440px;
+  right: 430px;
 }
 .threeImages3{
   border-color: white;
@@ -55,7 +57,7 @@
   height: 130px;
   position: absolute;
   bottom: 160px;
-  right: 280px;
+  right: 270px;
 }
 .UpdatesSection{
   margin: 60px 230px;
@@ -82,6 +84,7 @@ text-align: left;
   margin-left: 20px;
   width: 250px;
   height: 150px;
+  border-radius: 10px;
 }
 
 .figCaptionImages{
@@ -92,8 +95,10 @@ text-align: left;
 }
 
 .figuresCaption{
+  padding-top: 20px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   margin-right: 10px;
+  padding-bottom: 30px;
 }
