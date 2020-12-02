@@ -1,0 +1,192 @@
+*{
+  overflow: auto;
+}
+@media only screen and (max-width: 767px) {
+  .UpdatesSection{
+    margin: 3vw 11vw;
+  }
+  .UpdatesSection h1{
+    margin-bottom: 2vw;
+    text-align: center;
+  }
+  .Updates{
+    display: block;
+    width: 100%;
+    background-color: #DCDCDC;
+    margin: 1vw 1vw;
+  }
+
+  .h3Updates{
+  margin-left: 1vw;
+  text-align: left;
+  }
+
+  .bigFigures{
+    margin-left: 1vw;
+    margin-right: 1vw;
+    width: 97%;
+    height: 100%;
+    border-radius: 1.5vw;
+  }
+
+  .figCaptionImages{
+    border-radius: 50%;
+    width: 10%;
+    height: 10%;
+    margin-left: 0.25vw;
+  }
+
+  .figuresCaption{
+    padding-top: 1vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 0.5vw;
+    padding-bottom: 1.5vw;
+  }
+
+}
+
+
+
+@media only screen and (min-width: 768px) {
+  .UpdatesSection{
+    margin: 6vw 23vw;
+    line-height: 2vw;
+  }
+  .UpdatesSection h1{
+    margin-bottom: 3vw;
+    text-align: center;
+  }
+  .Updates{
+    float: left;
+    width: 50%;
+    background-color: #DCDCDC;
+    margin: 2vw 2vw;
+  }
+
+  .h3Updates{
+  margin-left: 2vw;
+  text-align: left;
+  }
+
+  .bigFigures{
+    margin-left: 2vw;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+
+  .figCaptionImages{
+    border-radius: 50%;
+    width: 4vw;
+    height: 4vw;
+    margin-left: 0.5vw;
+  }
+
+  .figuresCaption{
+    padding-top: 2vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 1vw;
+    padding-bottom: 3vw;
+  }
+
+}
+
+
+@media only screen and (min-width: 929px) {
+  .UpdatesSection{
+    margin: 9vw 34.5vw;
+    line-height: 2vw;
+  }
+  .UpdatesSection h1{
+    margin-bottom: 4.5vw;
+    text-align: center;
+    line-height: 2.5vw;
+  }
+  .Updates{
+    float: left;
+    width: 50%;
+    background-color: #DCDCDC;
+    margin: 3vw 3vw;
+  }
+
+  .h3Updates{
+  margin-left: 3vw;
+  text-align: left;
+  }
+
+  .bigFigures{
+    margin-left: 3vw;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+
+  .figCaptionImages{
+    border-radius: 50%;
+    width: 6vw;
+    height: 6vw;
+    margin-left: 0.75vw;
+  }
+
+  .figuresCaption{
+    padding-top: 3vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 1.5vw;
+    padding-bottom: 4.5vw;
+  }
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+  .UpdatesSection{
+    margin: 60px 230px;
+    line-height: 2rem;
+  }
+  .UpdatesSection h1{
+    margin-bottom: 30px;
+    text-align: center;
+    line-height: 2.5rem;
+  }
+  .Updates{
+    float: left;
+    width: 300px;
+    background-color: #DCDCDC;
+    margin: 20px 20px;
+  }
+
+  .h3Updates{
+  margin-left: 20px;
+  text-align: left;
+  }
+
+  .bigFigures{
+    margin-left: 20px;
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+  }
+
+  .figCaptionImages{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+  }
+
+  .figuresCaption{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 10px;
+    padding-bottom: 30px;
+  }
+
+}
