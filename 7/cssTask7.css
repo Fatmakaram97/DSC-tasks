@@ -24,7 +24,7 @@
   .bigFigures{
     margin-left: 1vw;
     margin-right: 1vw;
-    width: 97%;
+    width: 96%;
     height: 100%;
     border-radius: 1.5vw;
   }
@@ -51,8 +51,7 @@
 
 @media only screen and (min-width: 768px) {
   .UpdatesSection{
-    margin: 6vw 23vw;
-    line-height: 2vw;
+    margin: 4vw 15vw;
   }
   .UpdatesSection h1{
     margin-bottom: 3vw;
@@ -60,7 +59,7 @@
   }
   .Updates{
     float: left;
-    width: 50%;
+    width: 42%;
     background-color: #DCDCDC;
     margin: 2vw 2vw;
   }
@@ -72,7 +71,7 @@
 
   .bigFigures{
     margin-left: 2vw;
-    width: 100%;
+    width: 85%;
     height: 100%;
     border-radius: 10px;
   }
@@ -98,29 +97,28 @@
 
 @media only screen and (min-width: 929px) {
   .UpdatesSection{
-    margin: 9vw 34.5vw;
-    line-height: 2vw;
+    margin: 6vw 20vw;
   }
   .UpdatesSection h1{
-    margin-bottom: 4.5vw;
+    margin-bottom: 3.5vw;
     text-align: center;
-    line-height: 2.5vw;
+
   }
   .Updates{
     float: left;
-    width: 50%;
+    width: 45%;
     background-color: #DCDCDC;
-    margin: 3vw 3vw;
+    margin: 1vw 1vw;
   }
 
   .h3Updates{
-  margin-left: 3vw;
+  margin-left: 1vw;
   text-align: left;
   }
 
   .bigFigures{
-    margin-left: 3vw;
-    width: 100%;
+    margin-left: 1vw;
+    width: 92%;
     height: 100%;
     border-radius: 10px;
   }
@@ -133,12 +131,12 @@
   }
 
   .figuresCaption{
-    padding-top: 3vw;
+    padding-top: 1vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-right: 1.5vw;
-    padding-bottom: 4.5vw;
+    margin-right: 0.5vw;
+    padding-bottom: 1.5vw;
   }
 
 }
@@ -156,7 +154,7 @@
   }
   .Updates{
     float: left;
-    width: 300px;
+    width: 29%;
     background-color: #DCDCDC;
     margin: 20px 20px;
   }
