@@ -1,16 +1,21 @@
 //Task 1
 function isPrime() {
   var num = document.getElementById("num").value;
-  //if(typeof(Number("num")) == 	"number"){
-  if(!isNaN(num)){
-    console.log("It is a number.");
+  let x = 1;
+  for (var i = 2;i<num;i++){
+    if(num%i==0 || num == 1){
+      x = 0;
+    }
+  }
+  if(x == 1 && num != 1){
+    console.log("Prime number.");
     var output = document.getElementById('result');
-    output.innerHTML = "It is a number.";
+    output.innerHTML = "Prime number.";
   }
   else{
-    console.log("Not a number.");
+    console.log("Not a prime number.");
     var output = document.getElementById('result');
-    output.innerHTML= "Not a number.";
+    output.innerHTML= "Not a prime number.";
   }
 }
 
@@ -21,14 +26,14 @@ if (loginName == 'Admin'){
     if(passName == 'TheMaster'){
       alert("Welcome");
     }
-    else if (passName.trim() == '') {
+    else if (passName === '' || passName == null) {
       alert("Canceled");
     }
     else{
       alert("Wrong password");
     }
 }
-else if (loginName.trim() == '') {
+else if (loginName === '' || loginName == null) {
   alert("Canceled");
 }
 else{
