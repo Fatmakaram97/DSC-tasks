@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Changa', sans-serif;
+    box-sizing: border-box;
+    background: linear-gradient(to right, 	#87CEFA		 , #00BFFF, #4169E1);;
+}
+h1{
+  margin:3% 0 2% 45%;
+}
+
+.clear{
+  margin:1% 0 0 95%;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+
+#inputSection{
+  margin: 0 0 2% 35%;
+}
+
+#inputSection input{
+  height: 30px;
+  width: 300px;
+  border-radius: 20px;
+}
+#inputSection button{
+  height: 30px;
+  width: 150px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: #00FA9A;
+}
+
+#toDoList{
+  margin-left: 45%;
+}
+
+#completedList{
+  margin-top: 10%;
+  margin-left: 45%;
+  /* position:fixed;
+  bottom:150px;
+  left:45%; */
+}
+#toDoList ul, #completedList ul{
+  list-style: none;
+  font-size: 25px;
+}
+#toDoList ul li button{
+border-radius: 50%;
+width: 30px;
+height: 30px;
+}
+#toDoList ul li{
+margin-left: -40%;
+}
+.cancelbutton{
+  position: absolute;
+  right: 0;
+}
+
+.donebutton{
+  position: absolute;
+  right: 100px;
+}
