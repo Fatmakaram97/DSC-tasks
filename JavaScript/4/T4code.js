@@ -52,6 +52,7 @@ function AddElement() {
   cancelation(cancelbtns);
   AddToComplete(doneBtns);
 
+
   }
 
 function WarnMsg() {
@@ -70,17 +71,26 @@ function cancelation(cancelbtns) {
 function AddToComplete(doneBtns) {
   for (var i = 0; i < doneBtns.length; i++) {
     doneBtns[i].addEventListener("click", function() {
+      // $inputList[i].style.backgroundColor = "red";
+      // var $inputListLI = document.querySelectorAll('#toDoList ul li');
+      // console.log(i-1);
+      // console.log($inputListLI[i-1]);
+      // $inputListLI[i-1].parentNode.removeChild($inputListLI[i-1]);
+      // console.log($inputListLI[i-1]);
+
+      // $inputListLI.parentNode.removeChild($inputListLI[i-1])
       $inputList.removeChild($inputList.childNodes[i]);
-      let task = this.parentNode;
-      task.removeChild(task.lastElementChild);
-      task.removeChild(task.lastElementChild);
+
+      let task = this.parentElement;
 
       let comItem = document.createElement("li");
-      var comValue = task.innerText;
+      var comValue = task.innerText.slice(0, -2);
       var textItem2 = document.createTextNode(comValue);
 
       comItem.append(textItem2);
       $completedList.appendChild(comItem)
+      // this.parentElement.style.display = 'none';
+      // $inputListLI[i-1].style.display = 'none';
     })
   }
 }

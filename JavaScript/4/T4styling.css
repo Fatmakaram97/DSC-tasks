@@ -55,16 +55,17 @@ h1{
 border-radius: 50%;
 width: 30px;
 height: 30px;
+cursor: pointer;
 }
 #toDoList ul li{
 margin-left: -40%;
 }
 .cancelbutton{
   position: absolute;
-  right: 0;
+  right: 300px;
 }
 
 .donebutton{
   position: absolute;
-  right: 100px;
+  right: 400px;
 }

@@ -1,0 +1,26 @@
+*{
+  padding: 0;
+  font-family: 'Changa', sans-serif;
+
+}
+body{
+  margin:10% 0 0 35%;
+  background: linear-gradient(to left,#EE82EE,#9400D3);
+}
+#fNum,#sNum {
+  border-radius: 10px;
+  margin: 10px;
+  padding-left: 10px;
+}
+button{
+  margin-left: 14%;
+  border-radius: 10px;
+  background-color: #FFDEAD		;
+  width: 80px;
+}
+#mulResult,#divResult{
+  margin-left: 15%;
+  color: 	#000080;
+  font-weight: bold;
+  font-size: 20px;
+}
