@@ -8,12 +8,17 @@ console.log(reqInfo);
 // Task 2
 // write the old array
 let gArr = [5,8,10,7];
+// chech if the length is bigger than or equal 1 and log it
+if(gArr.length >= 1){
 // get the first and the last elements in the array
 let {0 : first ,[gArr.length - 1] : last} = gArr;
 // insert them into the new array
 let nArr = [first,last];
-// chech if the length is bigger than or equal 1 and log it
-(nArr.length >= 1) ? console.log(nArr) : console.log("The length is less than one");
+console.log(nArr)
+}
+else { console.log("The length is less than one");}
+
+
 
 
 // Task 3
