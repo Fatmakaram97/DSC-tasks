@@ -3,6 +3,13 @@ let $eventDateAndTime = document.getElementById('eventDateAndTime');
 let $timerDisplay = document.getElementById('timer');
 let $inputEvent = document.querySelector('#allEvents ul');
 let dateElement,listItem,cancelBtn;
+let $clear = document.querySelector('.clear i');
+
+// Add the restart function
+$clear.addEventListener("click",function (e){
+  // clear the list
+  $inputEvent.innerHTML = '';
+})
 
 //const date = dateTimeNow.getFullYear()+'-'+(dateTimeNow.getMonth()+1)+'-'+dateTimeNow.getDate();
 //var time = dateTimeNow.getHours() + ":" + dateTimeNow.getMinutes() + ":" + dateTimeNow.getSeconds();
