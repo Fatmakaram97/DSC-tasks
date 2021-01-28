@@ -2,7 +2,6 @@
 let $eventDateAndTime = document.getElementById('eventDateAndTime');
 let $timerDisplay = document.getElementById('timer');
 let $inputEvent = document.querySelector('#allEvents ul');
-let dateElement,listItem,cancelBtn;
 let $clear = document.querySelector('.clear i');
 
 // Add the restart function
@@ -20,7 +19,6 @@ $clear.addEventListener("click",function (e){
 export const updateClock = ($eventTitle = 'Your Event') => {
   // get time that insert by the user from the input
   let dateInput = new Date($eventDateAndTime.value)
-  let time1 = new Date($eventDateAndTime.value).getTime();
   let dateTimeNow = new Date();
   // check if the time is old else create a new event
   if(dateInput<dateTimeNow){
@@ -28,9 +26,8 @@ export const updateClock = ($eventTitle = 'Your Event') => {
   }
 
   else{
-    let $inputEventItem = document.querySelector('#allEvents ul li');
     // create the cancel button for each list item
-    cancelBtn = document.createElement("button");
+    let cancelBtn = document.createElement("button");
     let cancel = document.createTextNode("\u00D7");
     cancelBtn.className = "cancel";
     cancelBtn.appendChild(cancel);
@@ -38,14 +35,15 @@ export const updateClock = ($eventTitle = 'Your Event') => {
     cancelBtn.classList.add("cancelbutton");
 
     // create the list item by the input event
-    listItem = document.createElement("li");
+    let listItem = document.createElement("li");
     // create the place in the list item to insert in it the count down for the event
-    dateElement = document.createElement("span");
+    let dateElement = document.createElement("span");
 
 
   // create the update count down timer that update it self after 1 sec
   const timeinterval = setInterval(function () {
-      // get the time of the moment that function start at
+    let time1 = new Date($eventDateAndTime.value).getTime();
+    // get the time of the moment that function start at
     let timeNow = new Date();
     const time = timeNow.getTime();
 
@@ -71,13 +69,13 @@ export const updateClock = ($eventTitle = 'Your Event') => {
 },1000);
   // append the data calculated and the cancel button and append all to the list
   listItem.append(dateElement,cancelBtn );
-  $inputEvent.append(listItem)
-}
+  $inputEvent.appendChild(listItem)
+
   // get the cancel buttons array and call back the cancelation function
   let cancelbtns = document.getElementsByClassName("cancel");
   cancelation(cancelbtns);
 }
-
+}
 // create function to cancel the selected list item
 function cancelation(cancelbtns) {
   for (var i = 0; i < cancelbtns.length; i++) {
