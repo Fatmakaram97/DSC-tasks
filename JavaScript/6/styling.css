@@ -1,3 +1,4 @@
+/* create styling for all fonts and background color */
 body{
   font-family: 'Noto Sans JP', sans-serif;
   background-image: linear-gradient(to right, #4169E1 , #6495ED);
@@ -26,6 +27,7 @@ h2,ul{
   font-size: 20px;
   background-color: #9932CC;
   color: white;
+  cursor: pointer;
 }
 input{
   border-radius: 10px;

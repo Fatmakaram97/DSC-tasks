@@ -8,11 +8,13 @@
     <title>Count down timer</title>
   </head>
   <body>
-    <button class="clear"><i class="fa fa-refresh"></i></button>
+    <!-- make header section that contains clear button for the page
+    and the title of the page-->
     <header>
+      <button class="clear"><i class="fa fa-refresh"></i></button>
       <h1>Count Down Timer</h1>
-
     </header>
+    <!-- make section for inputs from the user to get event name and its time -->
     <section>
       <div class="inputs">
         <h2>Title of the event</h2>
@@ -21,19 +23,18 @@
         <h2>Choose the date and the time of the event</h2>
         <!-- <input id="eventDateAndTime" type="datetime-local" step="1"> -->
         <input id="eventDateAndTime" type="datetime-local" onfocus="this.value=''">
-        <!-- <input id="eventTime" type="time"  > -->
         <br>
         <br>
         <button id="insert" type="button" name="button">Start</button>
       </div>
     </section>
+    <!-- make section for the inserted events to appear as a list -->
     <section id="allEvents">
       <h2>All Events</h2>
       <ul>
-
       </ul>
     </section>
-
+    <!-- get the scripts files ans work with them as modules -->
     <script src="app.js" type="module"></script>
     <script src="main.js" type="module"></script>
   </body>
